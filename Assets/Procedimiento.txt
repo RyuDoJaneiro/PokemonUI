@@ -1,0 +1,6 @@
+- Separar los canvas según las secciones de la interfaz (Opciones, UI Principal y Tienda).
+- Genero un Atlas por cada grupo mencionado anteriormente.
+- Desactivo la opción "Tight Packing" (Me estaba ocasionando errores gráficos).
+- Desactivar la opción "Raycast Target" de todos los elementos que no interactuan con el jugador.
+- Evito el uso de LayoutGroups si no es realmente necesario.
+- Desactivo la opción de "Generate Physics Shapes" para evitar la creacion de colliders innecesarios.
